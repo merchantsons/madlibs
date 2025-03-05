@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mad Libs Python Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+</head>
+<body>
+   <div> 
+    <div style="display: flex; justify-content: center; margin-left: 1vmin; margin-top: -8vmin;"><img src="/static/logo.gif" width="200" height="220" alt="GIAIC LOGO" style="display: block;"></div>
+    <div class="head1">PROJECT 2: GUESS THE NUMBER GAME PYTHON PROJECT</div>
+    <div class="head3">FOR GIAIC Q3 - ROLL # 00037391 BY MERCHANTSONS</div>
+    <div class="container">       
+        <h1>Welcome to Mad Libs!</h1>
+        <form method="POST" class="form-grid">
+            <div class="form-column">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="text" name="adjective" placeholder="Adjective" required>
+                <input type="text" name="noun1" placeholder="Noun" required>
+                <input type="text" name="verb" placeholder="Verb" required>
+                <input type="text" name="adjective2" placeholder="Adjective" required>
+                <input type="text" name="noun2" placeholder="Noun" required>
+            </div>
+            <div class="form-column">
+                <input type="text" name="adjective3" placeholder="Adjective" required>
+                <input type="text" name="noun3" placeholder="Noun" required>
+                <input type="text" name="adjective4" placeholder="Adjective" required>
+                <input type="text" name="plural_noun" placeholder="Plural Noun" required>
+                <input type="text" name="adjective5" placeholder="Adjective" required>
+                <input type="text" name="adjective6" placeholder="Adjective" required>
+            </div>
+            <button type="submit" class="submit-button">Generate Story</button>
+        </form>
+    </div>
+    <div class="footer">© Copyright 2025 Merchantsons. All rights reserved.</div>
+   </div> 
+</body>
+</html>
